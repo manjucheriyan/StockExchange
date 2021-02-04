@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.homepage-bgimage {
+  background: url("https://image.shutterstock.com/z/stock-photo-financial-stock-market-graph-illustration-concept-of-business-investment-and-stock-future-trading-1043606782.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron{
+
+background-image:url(https://images.freeimages.com/images/small-previews/5eb/more-photo-file-2-1169682.jpg);
+}
+#containerId{
+  background-color: transparent;
+  
+}
+#jumbotronId{
+  margin-top: 25%;
+ 
+}
