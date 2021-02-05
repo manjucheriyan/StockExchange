@@ -12,7 +12,9 @@ const mongoose = require('mongoose');
 
 
 var app = express();
-mongoose.connect('mongodb://localhost:27017/riafy_db')
+//mongoose.connect('mongodb://localhost:27017/riafy_db')
+mongoose.connect('mongodb+srv://manju:manju@cluster0.ajzha.mongodb.net/riafy_db')
+
 
 app.use(cors({
   origin:"http://localhost:3000",
